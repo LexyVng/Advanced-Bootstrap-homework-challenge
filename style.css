@@ -89,3 +89,33 @@ h4 {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  .about-paragraph,
+  .app-description {
+    font-size: 18px;
+  }
+
+  .app-description {
+    text-align: center;
+  }
+
+  .app-links {
+    width: 100%;
+    text-align: center;
+  }
+}
